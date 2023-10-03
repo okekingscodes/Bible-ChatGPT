@@ -18,11 +18,7 @@
     
         <div class="sidebar">
             <h4>History</h4>
-            <p>Father of many Nations</p>
-            <hr>
-            <p>Father of many Nations</p>
-            <hr>
-            <p>Father of many Nations</p>
+            <p id="history">Father of many Nations</p>
             <hr>
         </div>
         
@@ -64,7 +60,8 @@
             <!------TAKING USER INPUTS------>
             <div class="user-chat">
                 <div class="user">You</div>
-                <input type="text" placeholder="Ask your question...">
+                <input type="text" id="inputField" placeholder="Ask your question...">
+                <button onclick="appendValue()">Send</button>
             </div>
     
     
@@ -79,7 +76,8 @@
             <!------TAKING USER INPUTS------>
             <div class="user-chat">
                 <div class="user">You</div>
-                <input type="text" placeholder="Ask your question...">
+                <input type="text" id="inputField" placeholder="Ask your question...">
+                <button onclick="appendValue()">Send</button>
             </div>
     
     
@@ -99,6 +97,6 @@
     </section>
 
 
-
+    <script src="script.js"></script>
 </body>
 </html>
