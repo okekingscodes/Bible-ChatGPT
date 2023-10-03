@@ -114,6 +114,8 @@ select option {
     border-radius: 5px;
     margin: 10px 2px 50px 600px;
     width: 40%;
+    position: relative;
+    height: 180px;
 }
 .user-chat .user {
     margin: 10px 5px;
@@ -130,6 +132,19 @@ select option {
     width: 95%;
     background: #dcdce1;
     color: #111827;
+}
+.user-chat-btn {
+    background: green;
+    float: right;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 67px;
+    right: 19px;
 }
 .chatgpt {
     background: #fff;
